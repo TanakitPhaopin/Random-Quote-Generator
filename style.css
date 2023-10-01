@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&family=Space+Mono:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D7E5CA;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: #F9F3CC;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container h2 {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.container button {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #D2E0FB;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.container button:hover {
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
